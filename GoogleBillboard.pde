@@ -13,6 +13,7 @@ public void draw()
 		dNum = Double.parseDouble(digits);
 		if(isPrime(dNum) == true){
 			pNum = dNum;
+			break;
 		}
 	}
 	System.out.println(pNum);
